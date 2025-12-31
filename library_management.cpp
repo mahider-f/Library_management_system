@@ -1,3 +1,16 @@
+/*
+Objective:
+The objective of this program is to create a simple, menu-driven Library Management System
+using basic C++ concepts such as arrays, functions, enums, and input validation. 
+It allows members to view, search, borrow, and return books, and librarians to add, update, 
+and delete books.
+
+Introduction:
+This Library Management System simulates real-world library operations in a console environment.
+It stores book information (ID, title, author, quantity, status) in parallel arrays and provides
+separate menus for members and librarians.
+*/
+
 #include <iostream>
 #include <string>
 #include <iomanip>
@@ -339,4 +352,5 @@ void deleteBook(string* id, string* title, string* author, BookStatus* status, i
     count--;
     cout << "Book deleted successfully.\n";
 }
+
 
