@@ -1,4 +1,13 @@
-/*
+  /*
+
+    Members                      	ID 
+1.Mahider Feleke...................ETS 0928/17
+2.Marta Kefale.....................ETS 0948/17
+3.Mikiyas Mekbib...................ETS 1021/17
+4.Nahom Kahase.....................ETS1084/17
+5.Nurhassen Mohammed...............ETS1221/17
+
+
 Objective:
 The objective of this program is to create a simple, menu-driven Library Management System
 using basic C++ concepts such as arrays, functions, enums, and input validation. 
@@ -352,5 +361,6 @@ void deleteBook(string* id, string* title, string* author, BookStatus* status, i
     count--;
     cout << "Book deleted successfully.\n";
 }
+
 
 
