@@ -61,6 +61,7 @@ void outputFormat(string* id, string* title, string* author, BookStatus* status,
 
 int main() {
     while (true) {
+        cout<<"==============Library Management System==============\n\n";
         cout << "\nLogin as: (1) Member  (2) Librarian (3)Exit : ";
         int role = input();
         if (role == 1) { memberdashboard(); continue; }
