@@ -94,9 +94,6 @@ main.cpp
 ├── Helper formatting functions
 
 └── Main program loop
-## Contributors
-- Nurhasen Mohammed (Etnurdin1) – Documentation, testing, and group collaboration
-
 
 **Build & run**
  - Using the provided VS Code task `C/C++: gcc.exe build active file` (recommended):
