@@ -107,12 +107,10 @@ void librariandashboard(){
                     searchBooksTitleAutor(bookID, bookTitle, bookAuthor, status, quantity, bookCount, q);
                     break;
                 }
-                case 4: borrowBook(bookID, status, quantity, bookCount); break;
-                case 5: returnBook(bookID, status, quantity, bookCount); break;
-                case 6: addBook(bookID, bookTitle, bookAuthor, status, quantity, bookCount); break;
-                case 7: updateBook(bookID, bookTitle, bookAuthor, status, quantity, bookCount); break;
-                case 8: deleteBook(bookID, bookTitle, bookAuthor, status, quantity, bookCount); break;
-                case 9: cout << "\nYou have been loged out...\n"; return;
+                case 4: addBook(bookID, bookTitle, bookAuthor, status, quantity, bookCount); break;
+                case 5: updateBook(bookID, bookTitle, bookAuthor, status, quantity, bookCount); break;
+                case 6: deleteBook(bookID, bookTitle, bookAuthor, status, quantity, bookCount); break;
+                case 7: cout << "\nYou have been loged out...\n"; return;
                 default: cout << "\nInvalid choice. Please try again.\n";
             }
         }while(true);
@@ -176,10 +174,10 @@ void showLibrarianMenu() {
     cout << "1. Display all books\n";
     cout << "2. Search book by ID\n";
     cout << "3. Search by title or author\n";
-    cout << "6. Add a new book\n";
-    cout << "7. Update a book\n";
-    cout << "8. Delete a book\n";
-    cout << "9. LogOut\n";
+    cout << "4. Add a new book\n";
+    cout << "5. Update a book\n";
+    cout << "6. Delete a book\n";
+    cout << "7. LogOut\n";
     cout << "Enter your choice: ";
 }
 
