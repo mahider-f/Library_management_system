@@ -83,3 +83,6 @@ main.cpp
 ├── Helper formatting functions
 
 └── Main program loop
+## Contributors
+- Nurhasen Mohammed (Etnurdin1) – Documentation, testing, and group collaboration
+
